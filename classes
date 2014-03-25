@@ -1,0 +1,8 @@
+Receiver
+Responder (HTTP style responder for different types html, json, xml, etc)
+Request (Perhaps make a class for each HTTP/1.1 POST, GET, PUT, DELETE, HEAD, OPTIONS
+RequestFactory
+DBConnector (Interface)
+    MongoDBConnector
+    etc
+Queries (Interface)
