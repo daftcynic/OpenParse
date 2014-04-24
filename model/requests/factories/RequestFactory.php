@@ -28,39 +28,3 @@ abstract class RequestFactory implements Factory{
         $this->makeRequest();
     }
 };
-
-
-
-class GetRequestFactory extends RequestFactory {
-
-    protected function makeRequest()
-    {
-        // TODO: Implement makeRequest() method.
-        // return new GetRequest($this->method, $this->params, $this->urlElements;
-    }
-}
-
-class PostRequestFactory extends RequestFactory {
-
-    protected function makeRequest()
-    {
-        // TODO: Implement makeRequest() method.
-        // return new PostRequest($this->method, $this->params, $this->urlElements;
-    }
-}
-
-class PutRequestFactory extends RequestFactory {
-
-    protected function makeRequest() {
-        // TODO: Implement makeRequest() method.
-        // return new PutRequest($this->method, $this->params, $this->urlElements;
-    }
-}
-
-class DeleteRequestFactory extends RequestFactory {
-
-    protected function makeRequest() {
-        // TODO: Implement makeRequest() method.
-        // return new DeleteRequest($this->method, $this->params, $this->urlElements;
-    }
-}
